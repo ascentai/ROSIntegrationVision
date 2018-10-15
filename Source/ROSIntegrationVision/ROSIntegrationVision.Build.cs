@@ -27,8 +27,8 @@ public class ROSIntegrationVision : ModuleRules
         
         PublicIncludePaths.AddRange(
 			new string[] {
-				"ROSIntegrationVision/Public",
-                "ROSIntegration/Public"
+				// "ROSIntegrationVision/Public",
+                // "ROSIntegration/Public"
 				// ... add public include paths required here ...
 			}
 			);
@@ -37,7 +37,7 @@ public class ROSIntegrationVision : ModuleRules
 		PrivateIncludePaths.AddRange(
 			new string[] {
 				"ROSIntegrationVision/Private",
-                "ROSIntegration/Public"
+                // "ROSIntegration/Public"
 				// ... add other private include paths required here ...
 			}
 			);
